@@ -11,15 +11,15 @@ Use **CIME** to create a new case:
 ```bash
 create_newcase --case <casename> --res <resolution> --compset <compset> --run-unsupported --output-root <output_dir> --ninst <ens_size> --multi-driver --project=<project_#>
 ```
-This will initialize a new multi-instance MOM6 case directory (known as the caseroot) where all files will live.
+This will initialize a new multi-instance MOM6 case.
 
 ## 2️⃣ Initialize the Ensemble
 
-In the caseroot, setup your initial ensemble
+In the run directory, setup your initial ensemble 
 
-1. Set the initial ensemble date to your start date, for example mine was Jan 1 2011.
-2. Copy restarts from a pre-existing spinup run (e.g., Ian’s spinup).
+1. Copy restarts from a pre-existing spinup run (e.g., Ian’s spinup).
      - Note: If you use Jan 1 restarts from 1971–2010, this may introduce bias due to the warming trend.
+2. Set the date to your start date, for example mine was Jan 1 2011.
 
 ## 3️⃣ Setup Data Assimilation
 
