@@ -23,7 +23,7 @@ In the run directory, setup your initial ensemble
 
 ## 3️⃣ Setup Data Assimilation
 
-The following are the necessary xml variable changes to get DA going in your CESM-MOM6 case
+The following are the necessary XML variable changes to get DA going in your CESM-MOM6 case
 
 1. Turn on data assimilation in the caseroot
 ```bash
