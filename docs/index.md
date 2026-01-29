@@ -1,6 +1,6 @@
 # MOM6 + DART Tutorial
 
-Welcome to my MOM6 + DART tutorial! This site documents setup steps, and common issues when running MOM6 with DART, based on my experience.
+Welcome to my MOM6 + DART tutorial! This site documents setup steps, potential issues, and tips and tricks for analyzing results.
 
 ---
 
@@ -12,10 +12,10 @@ Welcome to my MOM6 + DART tutorial! This site documents setup steps, and common 
 2. [DART Input Setup](02-DART_input.html)  
    How to configure and prepare DART input files for assimilation experiments.
    
-3. [MOM6 DART Setup](03-MOM6_DART_Setup.html) 
+3. [MOM6 DART Setup](03-MOM6_DART_Setup.html) <br>
    How to create a multi-instance MOM6 and enable DA using XML parameters.
    
-4. [Ensemble Averaging NetCDFs](04-NetCDF_mean.html)
+5. [Ensemble Averaging NetCDFs](04-NetCDF_mean.html) <br>
    Two approaches for averaging netCDF files.
 
 ---
