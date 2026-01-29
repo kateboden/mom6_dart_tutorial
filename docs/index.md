@@ -12,7 +12,7 @@ Welcome to my MOM6 + DART tutorial! This site documents setup steps, and common 
 2. [DART Input Setup](02-DART_input.html)  
    How to configure and prepare DART input files for assimilation experiments.
 
-3. [MOM6_DART_Setup](03-MOM6_DART_Setup.html)
+3. [MOM6 DART Setup](03-MOM6_DART_Setup.html) 
    How to create a multi-instance MOM6 and enable DA using XML parameters.
 
 ---
