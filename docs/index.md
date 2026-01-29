@@ -15,6 +15,9 @@ Welcome to my MOM6 + DART tutorial! This site documents setup steps, and common 
 3. [MOM6 DART Setup](03-MOM6_DART_Setup.html) 
    How to create a multi-instance MOM6 and enable DA using XML parameters.
 
+5. [Ensemble Averaging NetCDFs](04-NetCDF_mean.html)
+   Two approaches for averaging netCDF files.
+
 ---
 
 ## How to Use This Tutorial
