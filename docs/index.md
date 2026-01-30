@@ -1,6 +1,6 @@
-# MOM6 + DART Tutorial
+# MOM6 + DART Notes
 
-Welcome to my MOM6 + DART tutorial! This site documents setup steps, potential issues, and tips and tricks for analyzing results.
+Welcome to my MOM6 + DART notes! This site documents setup steps, potential issues, and tips and tricks for analyzing results.
 
 ---
 
@@ -17,6 +17,9 @@ Welcome to my MOM6 + DART tutorial! This site documents setup steps, potential i
    
 5. [Ensemble Averaging NetCDFs](04-NetCDF_mean.html) <br>
    Two approaches for averaging netCDF files.
+
+6. [Restarting a Failed Case](05-Restart_Failed_Case.html) <br>
+   Notes on how to restart a case after failure.
 
 ---
 
