@@ -14,7 +14,7 @@ MOM6 + DART runs can fail for a variety of reasons. Below is a general guide for
 
 ---
 
-## Failures During MOM6 Forecast
+## Failure During MOM6 Forecast
 
 If the failure occurred **during a MOM6 forecast**, you can typically recover by simply resubmitting the case from the caseroot:
 
@@ -56,7 +56,9 @@ In the caseroot, update CIME to use the new state time. This is usually done in 
 ```
 I suggest doing an xml query first on DRV_RESTART_POINTER to make sure the formatting is correct for the rpointer file. 
 
+---
 
+## Additional Tips
 
-
+- Test short runs (i.e 1 DA cycle) to verify the simulation correctly restarted before resuming full experiment
    
