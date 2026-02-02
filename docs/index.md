@@ -23,12 +23,12 @@ Welcome to my MOM6 + DART notes! This site documents setup steps, potential issu
 
 ---
 
-## How to Use This Tutorial
+## How to Use These Notes
 
 - Click the links above to navigate between pages.  
-- Copy-paste commands directly from the tutorial for easy workflow replication.  
+- Copy-paste commands directly from the notes for easy workflow replication.  
 - Check back as I add more sections — the site will grow over time with more MOM6 + DART workflows.
 
 ---
 
-*This tutorial is hosted on GitHub Pages and updates automatically when I push changes to the repository.*
+*These notes are hosted on GitHub Pages and updates automatically when I push changes to the repository.*
