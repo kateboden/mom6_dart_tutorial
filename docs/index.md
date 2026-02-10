@@ -1,4 +1,8 @@
-# MOM6 + DART Notes
+---
+layout: default
+title: MOM6 + DART Notes
+---
+
 
 Welcome to my MOM6 + DART notes! This site documents setup steps, potential issues, and tips and tricks for analyzing results.
 
