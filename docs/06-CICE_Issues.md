@@ -1,4 +1,7 @@
-# Potential Issues with CICE  
+---
+layout: default
+title: Potential Issues with CICE
+---
 
 This page documents some common issues that can occur when running a G-case with DART and getting CICE errors 
 
