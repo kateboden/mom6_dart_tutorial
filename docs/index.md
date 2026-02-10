@@ -21,6 +21,9 @@ Welcome to my MOM6 + DART notes! This site documents setup steps, potential issu
 6. [Restarting a Failed Case](05-Restart_Failed_Case.html) <br>
    Notes on how to restart a case after failure.
 
+7. [CICE Issues](06-CICE_Issues.html) <br>
+   Notes on issues that can arise with CICE.
+
 ---
 
 ## How to Use These Notes
