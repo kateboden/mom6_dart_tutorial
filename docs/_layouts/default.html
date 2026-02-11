@@ -5,7 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
 
-  <!-- MathJax for LaTeX rendering -->
+  <!-- GitHub Markdown CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-light.min.css">
+
+  <!-- Optional: Code highlighting -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+
+  <!-- MathJax -->
   <script>
     MathJax = {
       tex: {
@@ -15,9 +23,26 @@
     };
   </script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <style>
+    body {
+      background: #f6f8fa;
+    }
+    .markdown-body {
+      box-sizing: border-box;
+      min-width: 200px;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 45px;
+      background: white;
+      border-radius: 8px;
+    }
+  </style>
 </head>
 
 <body>
-  {{ content }}
+  <article class="markdown-body">
+    {{ content }}
+  </article>
 </body>
 </html>
