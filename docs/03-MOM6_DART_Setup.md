@@ -1,4 +1,10 @@
-# Setting Up a Multi-Instance MOM6 Case with DART
+---
+layout: default
+title: Multi-Instance MOM6 with DART
+---
+
+
+# Setting Up a Multi-Instance CESM Case with DART
 
 This page describes step-by-step how to set up and run a multi-instance MOM6 case with data assimilation (DA) using DART.
 
@@ -42,7 +48,7 @@ The following are the necessary XML variable changes to get DA going in your CES
 ./xmlchange DATA_ASSIMILATION_CYCLES=<number_of_cycles>
 ```
 STOP_N determines the length of each MOM6 forecast before assimilation
-DATA_SASSIMILATION_CYCLES set the total number of cycles (how long the simulations runs)
+DATA_ASSIMILATION_CYCLES set the total number of cycles (how long the simulations runs)
 
 ## 4️⃣ Submit the Case
 
