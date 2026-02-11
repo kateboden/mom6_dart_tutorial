@@ -6,7 +6,7 @@ title: Multi-Instance MOM6 with DART
 
 # Setting Up a Multi-Instance CESM Case with DART
 
-This page describes step-by-step how to set up and run a multi-instance MOM6 case with data assimilation (DA) using DART.
+This page describes step-by-step how to set up and run a multi-instance MOM6 case with data assimilation (DA) using DART. Note that CESM is the main controller here, through CIME you will set up a case, in the caseroot you will modify the appropriate xml variables to enable DA, the executable 'filter' from DART will live in the bld directory of the CESM case. 
 
 ---
 
