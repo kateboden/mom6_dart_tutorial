@@ -6,7 +6,7 @@ This page describes step-by-step how to set up and run a multi-instance MOM6 cas
 
 ## 1️⃣ Create a New Case
 
-Use **CIME** to create a new case:
+As for any CESM case the tool that generates a new case is create_newcase. This tool is located in the $SRCROOT directory under the cime/scripts directory. For a multi-instance case you need to use the -ninst and --multi-driver tags.
 
 ```bash
 create_newcase --case <casename> --res <resolution> --compset <compset> --run-unsupported --output-root <output_dir> --ninst <ens_size> --multi-driver --project=<project_#>
